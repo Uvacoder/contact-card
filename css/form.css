@@ -1,0 +1,37 @@
+/* ------------------------ */
+/* FORM                     */
+/* ------------------------ */
+.form__group {
+    margin-bottom: 1rem;
+}
+
+.form__label {
+    font-size: 1.25rem;
+}
+
+.form__control {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 3px 11px;
+    background-color: #fff;
+    color: #333;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+}
+
+.form__control--valid {
+    border-color: #73fb19;
+}
+
+.form__control--invalid {
+    border-color: tomato;
+}
+
+.form__actions {
+    display: flex;
+    margin-top: 2.5rem;
+}

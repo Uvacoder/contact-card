@@ -1,0 +1,10 @@
+/* ------------------------ */
+/* GRID                     */
+/* ------------------------ */
+
+
+.container {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 20px 15px 40px;
+}

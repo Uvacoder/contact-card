@@ -1,0 +1,40 @@
+/* ------------------------ */
+/* BUTTON                   */
+/* ------------------------ */
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 2.5rem;
+    min-width: 7.438rem;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px 15px;
+    background-color: #eee;
+    color: #333;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn + .btn {
+    margin-left: 1rem;
+}
+
+.btn--success {
+    background-color: #73bf19;
+    color: #fff;
+}
+
+.btn--sm {
+    min-width: 0;
+    height: 2rem;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 0.813rem;
+}
