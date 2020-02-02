@@ -11,6 +11,7 @@ const phone = document.getElementById('phone');
 console.log(phone);
 
 phone.addEventListener('blur', checkNum);
+
 function checkNum(e) {
     const phoneNum = e.target.value;
     const phoneReg = /[679][0-9]{8}/;
@@ -32,6 +33,6 @@ function checkEmpty(e) {
     } else {
         txt.className = 'form__control form__control--valid';
     }
-    
+
     return null;
 }
